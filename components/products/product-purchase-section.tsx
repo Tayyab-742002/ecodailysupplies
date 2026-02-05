@@ -188,9 +188,13 @@ export function ProductPurchaseSection({
             <span className="text-sm font-medium text-gray-500 uppercase tracking-wider">
               Total
             </span>
+            <span className="text-xs font-medium text-gray-500">
+              Ex VAT
+            </span>
           </div>
           <div className="flex items-center gap-2 text-sm text-gray-600">
             <span>£{calculatedPricePerUnit.toFixed(2)}</span>
+            <span className="text-xs text-gray-400">Ex VAT</span>
             <span className="text-gray-400">×</span>
             <span>{totalQuantity}</span>
             <span className="text-gray-500 uppercase tracking-wide text-xs">

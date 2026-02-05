@@ -36,7 +36,7 @@ export function PricingTable({
               Quantity
             </th>
             <th className="px-4 py-3 text-left text-xs font-bold uppercase tracking-wider text-gray-900">
-              Price per Unit
+              Price per Unit <span className="font-normal text-gray-500">(Ex VAT)</span>
             </th>
           </tr>
         </thead>

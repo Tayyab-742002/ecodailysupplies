@@ -204,6 +204,9 @@ export function QuantityPriceSelector({
           <span className="text-sm font-medium text-gray-500 uppercase tracking-wider">
             per unit
           </span>
+          <span className="text-xs text-gray-400">
+            Ex VAT
+          </span>
         </div>
         {quantity > 1 && (
           <div className="flex items-center gap-2 pt-2 border-t border-gray-300">
@@ -212,6 +215,9 @@ export function QuantityPriceSelector({
             </span>
             <span className="text-xl font-bold text-gray-900">
               £{totalPrice.toFixed(2)}
+            </span>
+            <span className="text-xs text-gray-400">
+              Ex VAT
             </span>
           </div>
         )}
